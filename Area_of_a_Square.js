@@ -20,5 +20,5 @@ Pszeudokód
 */
 
 function squareArea(A){
-    r = A * 2 / Math.PI;
-    return Math.round((r * r) * 100) / 100;
+    return Math.round(Math.pow(A*2/Math.PI,2) * 100) /100
+  }
