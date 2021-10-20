@@ -8,6 +8,14 @@ Sam Harris => S.H
 
 patrick feeney => P.F  */
 
+/* 
+1.) A név string szétválasztása split-el.
+2.) MAP függvénnyel a kezdőbetük megkeresése [0]
+3.) Nagy etűvé alakítás upper-case-el.
+4.) Egyesítés join-al és "pont"-al
+
+*/
+
 
 function abbrevName(name){
     return (
